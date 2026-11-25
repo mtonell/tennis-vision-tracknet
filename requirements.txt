@@ -1,0 +1,17 @@
+# Install PyTorch for your platform first (CUDA or CPU):
+#   https://pytorch.org/get-started/locally/
+torch>=2.2
+torchvision>=0.17
+numpy>=1.26
+pandas>=2.0
+opencv-python>=4.8
+Pillow>=10.0
+tqdm>=4.66
+matplotlib>=3.8
+# Optional experiment tracking (train.py works without it):
+comet_ml>=3.40
+
+# Optional: export / alternate runtimes (not needed for training or eval)
+# onnx>=1.16
+# onnxruntime-gpu>=1.18
+# tensorrt>=10.0

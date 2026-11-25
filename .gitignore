@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Datasets and run artifacts
+/data/
+/runs/
+/models/
+/results/
+
+# Weights
+*.pth
+*.pt
+
+# Exported graphs / engines
+*.onnx
+*.trt
+*.engine
+
+# Outputs
+*.mp4
+*.avi
+*_pr_curve.png
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
